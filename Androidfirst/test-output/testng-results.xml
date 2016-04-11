@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21338" started-at="2016-04-11T16:10:18Z" finished-at="2016-04-11T16:10:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21338" started-at="2016-04-11T16:10:18Z" finished-at="2016-04-11T16:10:39Z">
+      <class name="com.mobile.pack.Scrollingtotext">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobile.pack.Scrollingtotext@6767c1fc]" name="setup" is-config="true" duration-ms="8868" started-at="2016-04-11T21:40:18Z" finished-at="2016-04-11T21:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="scrolltext()[pri:0, instance:com.mobile.pack.Scrollingtotext@6767c1fc]" name="scrolltext" duration-ms="11426" started-at="2016-04-11T21:40:27Z" finished-at="2016-04-11T21:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrolltext -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.mobile.pack.Scrollingtotext@6767c1fc]" name="end" is-config="true" duration-ms="1016" started-at="2016-04-11T21:40:38Z" finished-at="2016-04-11T21:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.mobile.pack.Scrollingtotext -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
