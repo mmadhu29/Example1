@@ -4,6 +4,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -43,9 +44,11 @@ public class ScrollHTabs {
 			
 			for (int i=0; i< 10; i++)
 			{
+				driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 				if (driver.findElementsByName("Tab 11").size()!=0)
 				{
 					driver.findElementByName("Tab 11").click();
+					System.out.println("The tab11 is clicked");
 					break;
 				}
 				else
@@ -54,8 +57,9 @@ public class ScrollHTabs {
 				}
 			}
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-			WebElement ele1 = (WebElement) driver.findElementsById("android:id/tabs").get(0);
-			WebElement ele2 = ele1.findElement(arg0)
+			WebElement ele1 = (WebElement) driver.findElementsById("android:id/tabcontent").get(0);
+			WebElement ele2 = ele1.findElement(By.className("android.widget.TextView"));
+			System.out.println("The text of tab11 is "+ ele2.getText());
 			
 			
 		}catch (Exception e)

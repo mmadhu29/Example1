@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.mobile.pack.Scrollingtotext">
+      <class name="com.mobile.pack.MultiTouch">
         <methods>
-          <include name="scrolltext"/>
           <include name="setup"/>
+          <include name="multitouchtest"/>
         </methods>
-      </class> <!-- com.mobile.pack.Scrollingtotext -->
+      </class> <!-- com.mobile.pack.MultiTouch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

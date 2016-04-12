@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21338" started-at="2016-04-11T16:10:18Z" finished-at="2016-04-11T16:10:39Z">
+  <suite name="Default suite" duration-ms="15378" started-at="2016-04-12T16:47:04Z" finished-at="2016-04-12T16:47:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21338" started-at="2016-04-11T16:10:18Z" finished-at="2016-04-11T16:10:39Z">
-      <class name="com.mobile.pack.Scrollingtotext">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobile.pack.Scrollingtotext@6767c1fc]" name="setup" is-config="true" duration-ms="8868" started-at="2016-04-11T21:40:18Z" finished-at="2016-04-11T21:40:27Z">
+    <test name="Default test" duration-ms="15378" started-at="2016-04-12T16:47:04Z" finished-at="2016-04-12T16:47:20Z">
+      <class name="com.mobile.pack.MultiTouch">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobile.pack.MultiTouch@6f7fd0e6]" name="setup" is-config="true" duration-ms="9042" started-at="2016-04-12T22:17:04Z" finished-at="2016-04-12T22:17:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="scrolltext()[pri:0, instance:com.mobile.pack.Scrollingtotext@6767c1fc]" name="scrolltext" duration-ms="11426" started-at="2016-04-11T21:40:27Z" finished-at="2016-04-11T21:40:38Z">
+        <test-method status="PASS" signature="multitouchtest()[pri:0, instance:com.mobile.pack.MultiTouch@6f7fd0e6]" name="multitouchtest" duration-ms="5267" started-at="2016-04-12T22:17:13Z" finished-at="2016-04-12T22:17:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrolltext -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.mobile.pack.Scrollingtotext@6767c1fc]" name="end" is-config="true" duration-ms="1016" started-at="2016-04-11T21:40:38Z" finished-at="2016-04-11T21:40:39Z">
+        </test-method> <!-- multitouchtest -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.mobile.pack.MultiTouch@6f7fd0e6]" name="end" is-config="true" duration-ms="1044" started-at="2016-04-12T22:17:19Z" finished-at="2016-04-12T22:17:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-      </class> <!-- com.mobile.pack.Scrollingtotext -->
+      </class> <!-- com.mobile.pack.MultiTouch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
