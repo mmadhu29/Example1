@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15378" started-at="2016-04-12T16:47:04Z" finished-at="2016-04-12T16:47:20Z">
+  <suite name="Default suite" duration-ms="63693" started-at="2016-04-29T11:02:34Z" finished-at="2016-04-29T11:03:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15378" started-at="2016-04-12T16:47:04Z" finished-at="2016-04-12T16:47:20Z">
-      <class name="com.mobile.pack.MultiTouch">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobile.pack.MultiTouch@6f7fd0e6]" name="setup" is-config="true" duration-ms="9042" started-at="2016-04-12T22:17:04Z" finished-at="2016-04-12T22:17:13Z">
+    <test name="Default test" duration-ms="63693" started-at="2016-04-29T11:02:34Z" finished-at="2016-04-29T11:03:38Z">
+      <class name="com.mobile.pack.AppiumServerStartStop">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mobile.pack.AppiumServerStartStop@3021eb3f]" name="setup" is-config="true" duration-ms="58457" started-at="2016-04-29T16:32:34Z" finished-at="2016-04-29T16:33:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="multitouchtest()[pri:0, instance:com.mobile.pack.MultiTouch@6f7fd0e6]" name="multitouchtest" duration-ms="5267" started-at="2016-04-12T22:17:13Z" finished-at="2016-04-12T22:17:19Z">
+        <test-method status="PASS" signature="scrollTab()[pri:0, instance:com.mobile.pack.AppiumServerStartStop@3021eb3f]" name="scrollTab" duration-ms="2883" started-at="2016-04-29T16:33:33Z" finished-at="2016-04-29T16:33:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multitouchtest -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.mobile.pack.MultiTouch@6f7fd0e6]" name="end" is-config="true" duration-ms="1044" started-at="2016-04-12T22:17:19Z" finished-at="2016-04-12T22:17:20Z">
+        </test-method> <!-- scrollTab -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.mobile.pack.AppiumServerStartStop@3021eb3f]" name="end" is-config="true" duration-ms="2329" started-at="2016-04-29T16:33:36Z" finished-at="2016-04-29T16:33:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-      </class> <!-- com.mobile.pack.MultiTouch -->
+      </class> <!-- com.mobile.pack.AppiumServerStartStop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
